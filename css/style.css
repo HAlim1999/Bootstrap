@@ -1,0 +1,22 @@
+
+.logo{
+    width: 5rem;
+}
+.text{
+    font-size:1.8rem;
+    
+}
+
+.bg-bluegradient{
+    background-image: linear-gradient(to right,#ADA996,#F2F2F2,#DBDBDB,#EAEAEA)
+}
+
+.bg-blackgradient{
+    background: black;
+    color:white;
+}
+
+.btn-border{
+    border: 1px solid black;
+    color: black;
+}

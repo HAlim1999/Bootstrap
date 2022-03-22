@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilo bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Estilo propio-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>btstrap</title>
+</head>
+<body>
+<!--Inicio NAV-->
+        <nav class="navbar navbar-expand-md navbar-light bg-bluegradient pb-3 text">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="img/fondo.svg" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/productos.html">Motos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Service Oficial</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Accesorios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Cascos</a></li>
+                    <li><a class="dropdown-item" href="#">Equipamiento</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Repuestos</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-border" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+<!--Fin NAV-->
+
+
+<!--Inicio Main-->
+<main class="bg-bluegradient">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carru1.jpg" class="d-block w-70 m-auto" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carru2.jpg" class="d-block w-70 m-auto" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carru3.jpg" class="d-block w-70 m-auto" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</main>
+
+<div class="container-fluid bg-bluegradient">
+  <div class="row m-x">
+      <article class="col-sm-6 col-lg-4 py-3">
+          <div class="card">
+              <img src="../img/casco.webp" class="card-img-top" alt="...">
+              <h5 class="card-title">Cascos Nacionales e Importados</h5>
+
+      </article>
+
+      <article class="col-sm-6 col-lg-4 py-3">
+          <div class="card m-x">
+              <img src="../img/accesorios.webp" class="card-img-top" alt="...">
+              <h5 class="card-title">Accesorios</h5>
+
+          </div>
+      </article>
+
+      <article class="col-sm-6 col-lg-4 py-3">
+          <div class="card m-x">
+              <img src="../img/repuestos.jpg" class="card-img-top" alt="...">
+              <h5 class="card-title">Repuestos Originales y Alternativos</h5>
+          </div>
+      </article>
+    </div>
+  </div>
+
+
+  <!--Inicio Footer-->
+<footer>
+  <div class="container-fluid bg-blackgradient">
+    <div class="row m-x">
+      <div class="col-sm-12 col-lg-6 py-3">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Ingresa tu Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@****.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link btn  btn-success rounded-pill">Enviar Mensaje</a>
+        </div>
+
+        
+          <h3>Redes Sociales</h3>
+          <img src="img/icon/email.png" alt="">
+          <img src="img/icon/facebook.png" alt="">
+          <img src="img/icon/instagram.png" alt="">
+        </div>
+    
+   
+        <div class="col-sm-6 col-lg-4 py-3">
+          <iframe src="https://maps.google.com/?ll=23.135249,-82.359685&z=14&t=m&output=embed"></iframe>
+
+        </div>
+
+      </div>
+  </div>
+
+</footer>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
